@@ -1,0 +1,112 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    background-color: black;
+    color: white;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+.container div
+{
+width: 500px;
+height: 450px;
+border: 1px solid white;
+}
+.container h2
+{
+    font-size: 25px;
+    font-weight: 25px;
+    color: orangered
+}
+.bg-1
+{
+    background-image: url(https://pbs.twimg.com/media/GUfBUeHXoAATXau?format=jpg&name=small);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.bg-2
+{
+    background-image: url(https://th-i.thgim.com/public/incoming/5b5wzr/article68500264.ece/alternates/LANDSCAPE_1200/PTI08_05_2024_000314B.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-3
+{
+    background-image: url(https://static.tnn.in/thumb/msid-104127956,thumbsize-914533,width-1280,height-720,resizemode-75/104127956.jpg?quality=100);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.bg-4
+{
+    background-image: url(https://th-i.thgim.com/public/incoming/i1zavm/article68506810.ece/alternates/LANDSCAPE_1200/IMG_cleaning_crackers_wa_2_1_NGC9B3CU.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.bg-5
+{
+    background-image: url(https://images.hindustantimes.com/img/2024/08/07/550x309/Virat_Kohli_Asitha_Fernando_1723051087512_1723051094359.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.bg-6
+{
+    background-image: url(https://th-i.thgim.com/public/todays-paper/tp-national/tp-kerala/3phe8o/article67894127.ece/alternates/LANDSCAPE_1200/Gaganyaan-astroGURCFE3CP.3.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.bg-7
+{
+    background-image: url(https://images.indianexpress.com/2024/08/Untitled-design-33-1.jpg?w=640);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.bg-8
+{
+background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202408/br-ambedkar-101003400-16x9_0.jpg?VersionId=R4F4lTjnQXs4rGel0LYtkSF.cLqI5XOj&size=690:388);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.container div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 70%;
+    background-color: red;
+    font-size: 20px;
+    font-style: bold;
+}
+.container h4
+{
+    background-color: rgb(67, 153, 89);
+    color: black;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.container-2 button
+{
+    padding-bottom: 12px;
+    position: absolute;
+   padding-left: 50px;
+   padding-right: 50px;
+    padding-top: 12px;
+    text-decoration: underline;
+}
